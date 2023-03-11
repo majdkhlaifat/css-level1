@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vertical and horizontal navbar</title>
+    <style>
+        .horiz{
+            list-style-type: none;
+            display: flex;
+            background-color: green;
+            height: 50px;
+            padding: 15px;
+            
+        }
+        .first{
+            padding: 10px;
+            color: white;
+        }
+        .special{
+            list-style-type: none;
+            display: flex;
+            background-color: green;
+            padding: 10px;
+            color: gold;
+        }
+        .verti{
+            list-style-type: none;
+            display: inline-block;
+            background-color: green;
+            height: 150px;
+            margin-top: 50px;
+            margin-left: -70px;
+            padding-left:10px ;
+            margin-right: -20px;
+            }
+        .seconed{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul class="horiz">
+            <li class="first">Home</li>
+            <li class="first">About</li>
+            <li class="special">Products
+                <ul class="verti">
+                    <li class="seconed">Engineering</li>
+                    <li class="seconed">Telecom</li>
+                    <li class="seconed">Energy</li>
+                    <li class="seconed">Finance</li>
+                    <li class="seconed">Consultancy</li>
+                </ul>
+            </li>
+            <li class="first">Services</li>
+            <li class="first">Contact</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body{background-color: rgba(232, 127, 35, 0.588); color: rgba(31, 132, 31, 0.982); font-weight: bold };
+h1{ font-size: 50px;}
+.title{font-size: 30px;}
+.pic{width: 50%;}
+.caption{width: 50%;float: right;}
+.logo{width: 10px;height: 10px;}
